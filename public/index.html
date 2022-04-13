@@ -29,12 +29,50 @@
     <div id="step1" class="step">
         <div class="slds-grid">
 
-            <main class="slds-col slds-size--1-of-3 slds-p-horizontal--small">
-              <h1>Welcome to your activity!</h1>
+            <main class="slds-col">
+                <div class="main-wrapper">
+                    <div class="firstRow">
 
+                        <div>Phone Field</div>
+                        <select id="phoneFieldList">
+                            <option value="">Select</option>
+                        </select>
+
+                        <div>ShortCode</div>
+                        <select id="shortcodeFieldList">
+                            <option value="">Select</option>
+                        </select>
+
+                        <div>Keyword</div>
+                        <select id="keyword">
+                            <option value="">Select</option>
+                        </select>
+                    </div>
+
+                    <div class="secondRow">
+
+                        <div>Subscriber Field</div>
+                        <select id="subscriberFieldList">
+                            <option value="">Select</option>
+                        </select> 
+
+                        <button id="pcLink">Add Preference Center Link</button>
+                        
+                    </div>
+
+                    <div class="sms-config">
+                        <div class="fieldSelection">
+                            <div>Fields</div>
+                            <div id="fields"></div>
+                        </div>
+
+                        <div>
+                            <!-- <textarea id="userView-sms-message" rows="12" cols="80"></textarea> -->
+                            <textarea id="sms-message" rows="12" cols="80"></textarea>
+                        </div>
+                    </div>
+                </div>
             </main>
-           
-            
 
         </div>
 
