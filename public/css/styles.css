@@ -1,7 +1,82 @@
 body {
     padding: 20px;
-    margin: 0;
+    margin: 30px;
+    font-size: 15px;
+    background-image: url("https://image.info.gtt.co.gy/lib/fe2a11717164057f7c1378/m/1/7c4ddd98-0afa-4c13-b77b-88ed0dbace58.png");
 }
-html {
-    background: #ffffff;
+
+.step {
+    display: none;
+}
+
+#step1 {
+    display: block;
+}
+
+.sms-config {
+    display: flex;
+}
+
+.firstRow, .secondRow {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: Orange;
+}
+
+#phoneFieldList, #Template, #keyword, #subscriberFieldList {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 20%;
+    font-size: 20px;
+    color: Green;
+}
+
+#pcLink {
+    display: none;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 10px;
+    background: white;
+    border: 1px solid grey;
+}
+
+.de-field {
+    height: 18%;
+    flex: 1 0 30%;
+    margin: 5px;
+    border-bottom: 1px dotted #D8DDE6;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #16325C;
+    cursor: pointer;
+}
+
+.fieldSelection {
+    width: 25%;
+}
+
+#fields {
+    width: 90%;
+    margin-top: 1%;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.fieldType {
+    font-size: 7px;
+    text-align: right;
+    margin-right: 5px;
+    cursor: not-allowed;
+}
+
+.activityKey {
+    font-size: 10px;
+    font-style: italic;
+    color: blue;
+}
+
+#SMS-Message {
+    font-size: 10px;
+    font-style: italic;
+    color: Red;
 }
